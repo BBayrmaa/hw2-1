@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+       <meta charset="utf-8">
+       <title>Layout1</title>
+
+       <style type="text/css">
+       *
+       {
+
+           margin:0px;
+           padding:0px;
+           font-family:arial;
+           box-sizing:border-box;
+       }
+       body
+       {
+
+       display:flex;
+       flex-direction:column;
+       }
+
+       #wrapper-div
+       {
+       	display: flex;
+       	flex-direction: column;
+       	width:100%;
+       	min-height:100px;
+       	
+       	margin:auto;
+       }
+
+        #header-div
+       {
+       	display: flex;
+       	flex-direction:row;
+       	width:100%;
+       	min-height:100px;
+       	background-color: lightgray;
+       	margin-top:10px;
+       	justify-content: center;
+       	align-items: center;
+       }
+       #nav-div
+       {
+       	    display:flex;
+       	    flex-direction: row;
+       	    width:100%;
+       	    min-height:30px;
+       	    background-color: lightgray;
+       	    margin-top:10px;
+       	    justify-content: center;
+       	    align-items: center;
+       }
+       
+       #main-div
+       {
+       	display: flex;
+       	flex-direction:row;
+       	width:100%;
+       	min-height:400px;
+       	background-color: white;
+       	margin-top:10px;
+       	justify-content: space-between;
+       }
+       #content1-div
+       {
+       	display: flex;
+       	flex-direction: row;
+       	flex-basis:15%;
+       	background-color: lightgray;
+       	justify-content: center;
+       	align-items: center;
+       }
+       #body-area-div
+       {
+       	display:flex;
+       	flex-direction: row;
+       	flex-basis:65%;
+       	background-color: lightgray;
+       	justify-content: center;
+       	align-items: center;
+       }
+       #footer-div
+       {
+       	display:flex;
+       	flex-direction: row;
+       	width:100%;
+       	min-height:50px;
+       	background-color:lightgray;
+       	margin-top:10px;
+       	justify-content: center;
+       	align-items: center;
+       }
+       #content2-div
+       {
+       	display:flex;
+       	flex-direction: row;
+       	flex-basis:15%;
+       	background-color: lightgray;
+       	justify-content: center;
+       	align-items: center;
+       }
+
+       </style>
+</head>       
+<body>
+     <div id="wrapper-div">
+     	   
+              <div id="header-div">
+     	   	  	    Header
+     	   	  </div>
+     	   	 <div id="nav-div">
+     	   	 		Navigation
+     	   	  </div>
+     	   	  
+     	   	  <div id="main-div">
+     	   	  	   <div id="content1-div">
+     	   	  	   	Content
+     	   	  	   </div>
+     	   	  	        <div id="body-area-div">
+     	   	  	        	Main Content
+     	   	  	        </div>
+     	   	  <div id="content2-div">
+               	Content
+               </div>
+     	   	  </div>
+               
+     	   	  <div id="footer-div">
+     	   	  	Footer
+     	   	  </div>
+     </div>
+<body>
+</html>
